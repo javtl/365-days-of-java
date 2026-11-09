@@ -1,0 +1,141 @@
+
+# ==========================================
+# JAVA
+# ==========================================
+
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# ==========================================
+# INTELLIJ IDEA
+# ==========================================
+
+.idea/
+*.iml
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Kotlin
+.kotlin/
+
+# ==========================================
+# MAVEN
+# ==========================================
+
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+.flattened-pom.xml
+
+# ==========================================
+# GRADLE
+# ==========================================
+
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ==========================================
+# ECLIPSE
+# ==========================================
+
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# ==========================================
+# NETBEANS
+# ==========================================
+
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ==========================================
+# VISUAL STUDIO CODE
+# ==========================================
+
+.vscode/
+
+# ==========================================
+# OPERATING SYSTEM
+# ==========================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==========================================
+# LOGS
+# ==========================================
+
+*.log
+logs/
+
+# ==========================================
+# TEMPORARY FILES
+# ==========================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.bak
+
+# ==========================================
+# ENVIRONMENT VARIABLES / SECRETS
+# ==========================================
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ==========================================
+# TEST / COVERAGE REPORTS
+# ==========================================
+
+coverage/
+jacoco/
+*.exec
+
+# ==========================================
+# DATABASE LOCAL FILES
+# ==========================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================================
+# DOCKER LOCAL OVERRIDES
+# ==========================================
+
+docker-compose.override.yml
